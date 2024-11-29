@@ -1,0 +1,42 @@
+{
+    "filter": [
+        {
+            "classname": "game_player_equip"
+        }
+    ],
+	
+	"modify": [
+		{
+			"match":
+			{
+				"classname": "trigger_multiple",
+				"targetname": "[PR#]map_cp2"
+			},
+			"replace":
+			{
+				"targetname": "[PR#]map_cp1"
+			}
+		},
+		{
+			"match":
+			{
+				"classname": "trigger_multiple",
+				"targetname": "[PR#]map_cp3"
+			},
+			"replace":
+			{
+				"targetname": "[PR#]map_cp2"
+			}
+		}
+	],
+		"add": [
+        {
+            "classname": "team_select",
+			"isPointPrefab": "true",
+			"targetMapName": "prefabs/misc/team_select",
+			"origin": "-4873.23 2370.15 7052.71",
+			"angles": "-2.81 -220.38 0.00",
+			"scales": "1.000000 1.000000 1.000000"
+        }
+    ]
+}
