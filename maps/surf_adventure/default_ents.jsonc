@@ -1,0 +1,75 @@
+{
+	"modify": [
+		{
+			"match":
+			{
+				"classname": "trigger_multiple",
+				"targetname": "[PR#]map_start"
+			},
+			"replace":
+			{
+				"targetname": "[PR#]s1_start"
+			}
+		},
+		{
+			"match":
+			{
+				"classname": "trigger_multiple",
+				"targetname": "[PR#]map_cp1"
+			},
+			"replace":
+			{
+				"targetname": "[PR#]s2_start"
+			}
+		},
+		{
+			"match":
+			{
+				"classname": "trigger_multiple",
+				"targetname": "[PR#]map_cp2"
+			},
+			"replace":
+			{
+				"targetname": "[PR#]s3_start"
+			}
+		},
+		{
+			"match":
+			{
+				"classname": "trigger_multiple",
+				"targetname": "[PR#]map_cp3"
+			},
+			"replace":
+			{
+				"targetname": "[PR#]s4_start"
+			}
+		},
+		{
+			"match":
+			{
+				"classname": "trigger_multiple",
+				"targetname": "[PR#]map_cp4"
+			},
+			"replace":
+			{
+				"targetname": "[PR#]s5_start"
+			}
+		}
+	],
+	"add": [
+		{
+			"check_if_dest_clear_for_player": "False",
+			"mirror_player": "False",
+			"use_landmark_angles": "False",
+			"target": "[PR#]stage4",
+			"spawnflags": "4097",
+			"StartDisabled": "False",
+			"useLocalOffset": "False",
+			"classname": "trigger_teleport",
+			"origin": "-3000.1 9916.1 -3959.1",
+			"angles": "0.0 0.0 0.0",
+			"scales": "1 1 1",
+			"model": "maps//surf_adventure//entities//unnamed_7814.vmdl"
+		}
+	]
+}
