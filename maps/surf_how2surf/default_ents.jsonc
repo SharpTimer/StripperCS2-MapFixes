@@ -1,0 +1,17 @@
+{
+    "filter": [
+        {
+            "classname": "game_player_equip"
+        }
+    ],
+	"add": [
+        {
+            "classname": "team_select",
+			"isPointPrefab": "true",
+			"targetMapName": "prefabs/misc/team_select",
+			"origin": "14680.000000 -15114.821289 -367.155090",
+			"angles": "0.000000 270.000000 0.000000",
+			"scales": "1.000000 1.000000 1.000000"
+        }
+    ]
+}
