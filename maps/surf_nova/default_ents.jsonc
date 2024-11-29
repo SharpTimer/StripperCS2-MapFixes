@@ -1,0 +1,26 @@
+{	
+	"modify": [
+		{
+			"match":
+			{
+				"classname": "trigger_multiple",
+				"target_name": "[PR#]map_cp2"
+			},
+			"replace":
+			{
+				"target_name": "[PR#]map_cp1"
+			}
+		},
+		{
+			"match":
+			{
+				"classname": "trigger_multiple",
+				"target_name": "[PR#]map_cp3"
+			},
+			"replace":
+			{
+				"target_name": "[PR#]map_cp2"
+			}
+		}
+	]
+}
