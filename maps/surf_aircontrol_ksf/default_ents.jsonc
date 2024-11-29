@@ -1,0 +1,184 @@
+{
+	"modify": [
+		{
+			"match":
+			{
+				"classname": "trigger_multiple",
+				"targetname": "[PR#]s1_start"
+			},
+			"replace":
+			{
+				"targetname": "[PR#]map_start"
+			}
+		},
+		{
+			"match":
+			{
+				"classname": "trigger_multiple",
+				"targetname": "[PR#]s2_start"
+			},
+			"replace":
+			{
+				"targetname": "[PR#]map_cp1",
+				"spawnflags": "4097"
+			},
+			"delete":
+			{
+				"filtername": "[PR#]mainmap"
+			}
+		},
+		{
+			"match":
+			{
+				"classname": "trigger_multiple",
+				"targetname": "[PR#]s3_start"
+			},
+			"replace":
+			{
+				"targetname": "[PR#]map_cp2",
+				"spawnflags": "4097"
+			},
+			"delete":
+			{
+				"filtername": "[PR#]mainmap"
+			}
+		},
+		{
+			"match":
+			{
+				"classname": "trigger_multiple",
+				"targetname": "[PR#]s4_start"
+			},
+			"replace":
+			{
+				"targetname": "[PR#]map_cp3",
+				"spawnflags": "4097"
+			},
+			"delete":
+			{
+				"filtername": "[PR#]mainmap"
+			}
+		},
+		{
+			"match":
+			{
+				"classname": "trigger_multiple",
+				"targetname": "[PR#]s5_start"
+			},
+			"replace":
+			{
+				"targetname": "[PR#]map_cp4",
+				"spawnflags": "4097"
+			},
+			"delete":
+			{
+				"filtername": "[PR#]mainmap"
+			}
+		},
+		{
+			"match":
+			{
+				"classname": "trigger_multiple",
+				"targetname": "[PR#]s6_start"
+			},
+			"replace":
+			{
+				"targetname": "[PR#]map_cp5",
+				"spawnflags": "4097"
+			},
+			"delete":
+			{
+				"filtername": "[PR#]mainmap"
+			}
+		}
+	],
+	
+	"add": [
+		{
+			"mirror_player": "False",
+			"use_landmark_angles": "False",
+			"target": "[PR#]start",
+			"spawnflags": "1",
+			"StartDisabled": "False",
+			"useLocalOffset": "False",
+			"classname": "trigger_teleport",
+			"origin": "-1856 -1737.5 11778",
+			"angles": "0 0 0",
+			"scales": "1 1 1",
+			"model": "maps//surf_aircontrol_ksf//entities//unnamed_2_14790.vmdl"
+		},
+		{
+			"mirror_player": "False",
+			"use_landmark_angles": "False",
+			"target": "[PR#]start",
+			"spawnflags": "1",
+			"StartDisabled": "False",
+			"useLocalOffset": "False",
+			"classname": "trigger_teleport",
+			"origin": "-1856 3867.5 11778",
+			"angles": "0 0 0",
+			"scales": "1 1 1",
+			"model": "maps//surf_aircontrol_ksf//entities//unnamed_2_14790.vmdl"
+		},
+		{
+			"mirror_player": "False",
+			"use_landmark_angles": "False",
+			"target": "[PR#]start",
+			"spawnflags": "1",
+			"StartDisabled": "False",
+			"useLocalOffset": "False",
+			"classname": "trigger_teleport",
+			"origin": "-9472.5 9184 5379",
+			"angles": "0 0 0",
+			"scales": "1 1 1",
+			"model": "maps//surf_aircontrol_ksf//entities//unnamed_2_14798.vmdl"
+		},
+		{
+			"mirror_player": "False",
+			"use_landmark_angles": "False",
+			"target": "[PR#]start",
+			"spawnflags": "1",
+			"StartDisabled": "False",
+			"useLocalOffset": "False",
+			"classname": "trigger_teleport",
+			"origin": "-6017.5 9184 5379",
+			"angles": "0 0 0",
+			"scales": "1 1 1",
+			"model": "maps//surf_aircontrol_ksf//entities//unnamed_2_14798.vmdl"
+		},
+		{
+			"mirror_player": "False",
+			"use_landmark_angles": "False",
+			"target": "[PR#]start",
+			"spawnflags": "1",
+			"StartDisabled": "False",
+			"useLocalOffset": "False",
+			"classname": "trigger_teleport",
+			"origin": "-2562.5 9184 5379",
+			"angles": "0 0 0",
+			"scales": "1 1 1",
+			"model": "maps//surf_aircontrol_ksf//entities//unnamed_2_14798.vmdl"
+		},
+		{
+			"mirror_player": "False",
+			"use_landmark_angles": "False",
+			"target": "[PR#]start",
+			"spawnflags": "1",
+			"StartDisabled": "False",
+			"useLocalOffset": "False",
+			"classname": "trigger_teleport",
+			"origin": "892.5 9184 5379",
+			"angles": "0 0 0",
+			"scales": "1 1 1",
+			"model": "maps//surf_aircontrol_ksf//entities//unnamed_2_14798.vmdl"
+		},
+        {
+            "classname": "team_select",
+			"isPointPrefab": "true",
+			"targetMapName": "prefabs/misc/team_select",
+			"origin": "-1778 -9811 14336.181641",
+			"angles": "0 0 0",
+			"scales": "1.000000 1.000000 1.000000"
+        }
+	]
+}
