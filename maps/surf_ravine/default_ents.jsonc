@@ -1,0 +1,38 @@
+{
+	"add": [
+        {
+            "classname": "team_select",
+			"isPointPrefab": "true",
+			"targetMapName": "prefabs/misc/team_select",
+			"origin": "14038.237305 6098.645996 6761.745605",
+			"angles": "0.00 0.00 0.00",
+			"scales": "1.000000 1.000000 1.000000"
+        },
+		{
+			"mirror_player": "False",
+			"use_landmark_angles": "False",
+			"target": "[PR#]s1",
+			"spawnflags": "1",
+			"StartDisabled": "False",
+			"useLocalOffset": "False",
+			"classname": "trigger_teleport",
+			"origin": "893.0 3920.0 3442.0",
+			"angles": "31.620691 -68.120667 0.0",
+			"scales": "1 1 1",
+			"model": "maps//surf_ravine//entities//unnamed_2_7294.vmdl"
+		}
+    ],
+	"modify": [
+		{
+			"match":
+			{
+				"classname": "trigger_teleport",
+				"origin": "5440.000000 3504.000000 4496.000000"
+			},
+			"replace":
+			{
+				"origin": "5440.000000 3504.000000 4520.000000"
+			}
+		}
+	]
+}
