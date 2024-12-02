@@ -1,0 +1,12 @@
+{
+	"add": [
+        {
+            "classname": "team_select",
+			"isPointPrefab": "true",
+			"targetMapName": "prefabs/misc/team_select",
+			"origin": "-1601.861938 -4944.902344 -4252.148438",
+			"angles": "0 -90 0",
+			"scales": "1.000000 1.000000 1.000000"
+        }
+	]
+}
