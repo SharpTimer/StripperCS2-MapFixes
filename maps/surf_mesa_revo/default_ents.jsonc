@@ -1,0 +1,34 @@
+{
+	"modify": [
+		{
+			// Moves the spawn location forward a bit, default is too far from the starting ramp
+			"match":
+			{
+				"classname": "info_teleport_destination",
+				"targetname": "[PR#]spawn",
+				"origin": "0.000000 -1312.000000 9040.000000"
+			},
+			"replace":
+			{
+				"origin": "2.000000 -950.000000 9040.000000"
+			}
+		}
+	],
+	
+	"add": [
+		// Adds a missing teleport trigger below the spawn platform 
+		{
+			"mirror_player": "False",
+			"use_landmark_angles": "False",
+			"target": "[PR#]spawn",
+			"spawnflags": "1",
+			"StartDisabled": "False",
+			"useLocalOffset": "False",
+			"classname": "trigger_teleport",
+			"origin": "34.169998 -971.840027 8300.000000",
+			"angles": "0.0 0.0 0.0",
+			"scales": "1 1 1",
+			"model": "maps//surf_mesa_revo//entities//unnamed_4945.vmdl"
+		}
+	]
+}
