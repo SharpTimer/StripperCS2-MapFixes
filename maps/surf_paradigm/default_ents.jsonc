@@ -1,0 +1,49 @@
+{
+	"modify": [
+		// Fixes improperly named stage triggers
+		{
+			"match":
+			{
+				"classname": "trigger_multiple",
+				"targetname": "[PR#]map_start"
+			},
+			"replace":
+			{
+				"targetname": "[PR#]s1_start"
+			}
+		},
+		{
+			"match":
+			{
+				"classname": "trigger_multiple",
+				"targetname": "[PR#]map_cp1"
+			},
+			"replace":
+			{
+				"targetname": "[PR#]s2_start"
+			}
+		},
+		{
+			"match":
+			{
+				"classname": "trigger_multiple",
+				"targetname": "[PR#]map_cp2"
+			},
+			"replace":
+			{
+				"targetname": "[PR#]s3_start"
+			}
+		},
+		{
+			"match":
+			{
+				"classname": "trigger_multiple",
+				"targetname": "[PR#]map_cp3"
+			},
+			"replace":
+			{
+				"targetname": "[PR#]s4_start"
+			}
+		}
+	]
+}
