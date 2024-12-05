@@ -1,0 +1,77 @@
+{
+	// Adds starting weapons/knife, removes bad spawns and push triggers, and glass windows blockinng the map route
+	"filter": [
+		{
+			"classname": "game_player_equip"
+		},
+		{
+			"targetname": "[PR#]ct_teleport"
+		},
+		{
+			"targetname": "[PR#]ct_teleport2"
+		},
+		{
+			"targetname": "[PR#]t_teleport"
+		},
+		{
+			"targetname": "[PR#]t_teleport2"
+		},
+		{
+			"targetname": "[PR#]inner_noob_teleport_1"
+		},	
+		{
+			"classname": "func_breakable",
+			"origin": "800.000000 -4860.000000 7072.000000"
+		},
+		{
+			"classname": "func_breakable",
+			"origin": "-8616.000000 4000.000000 96.000000"
+		},
+		{
+			"classname": "func_breakable",
+			"origin": "-4347.899902 9171.200195 -8483.200195"
+		},
+		{
+			"classname": "trigger_push",
+			"origin": "544.000000 -9968.000000 9666.000000"
+		},
+		{
+			"classname": "trigger_push",
+			"origin": "544.000000 -10080.000000 9666.000000"
+		},
+		{
+			"classname": "trigger_push",
+			"origin": "1056.000000 -10080.000000 9666.000000"
+		},
+		{
+			"classname": "trigger_push",
+			"origin": "1056.000000 -9968.000000 9666.000000"
+		}
+		
+	],
+	// Adds missing team select
+	"add": [
+        {
+            "classname": "team_select",
+			"isPointPrefab": "true",
+			"targetMapName": "prefabs/misc/team_select",
+			"origin": "815.0 -9460.0 9840.0",
+			"angles": "0.0 0.0 -8.0",
+			"scales": "1.000000 1.000000 1.000000"
+        }
+	],
+	// Slight lowers the end zone, as !end results in your model stuck in a wall. Doesn't effect times since youre TP'd into the end zone
+	"modify": [
+		{
+			"match":
+			{
+				"classname": "trigger_multiple",
+				"targetname": "[PR#]map_end"
+			},
+			"replace":
+			{
+				"origin": "-8340.500000 9155.500000 -9800.500000"
+			}
+		}
+	]
+}
