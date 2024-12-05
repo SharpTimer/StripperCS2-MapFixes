@@ -1,0 +1,55 @@
+{
+	"add": [
+		// Adds missing team select
+        {
+            "classname": "team_select",
+			"isPointPrefab": "true",
+			"targetMapName": "prefabs/misc/team_select",
+			"origin": "-3756.000000 -3524.000000 -384.000000",
+			"angles": "0.0 0.0 0.0",
+			"scales": "1.000000 1.000000 1.000000"
+        },
+		// Adds tele trigger so you dont get stuck between wall and the ramp on stage 3
+		{
+			"mirror_player": "False",
+			"use_landmark_angles": "False",
+			"target": "[PR#]stage3_teleport",
+			"spawnflags": "4099",
+			"StartDisabled": "False",
+			"useLocalOffset": "False",
+			"classname": "trigger_teleport",
+			"origin": "-3510.103760 578.603149 -938.420044",
+			"angles": "90.0 0.0 0.0",
+			"scales": "1 1 1",
+			"model": "maps//surf_easy1//entities//unnamed_596.vmdl"
+		},
+		// Adds tele trigger so you dont get stuck between wall and the ramp on stage 4
+		{
+			"mirror_player": "False",
+			"use_landmark_angles": "False",
+			"target": "[PR#]stage4_teleport",
+			"spawnflags": "4099",
+			"StartDisabled": "False",
+			"useLocalOffset": "False",
+			"classname": "trigger_teleport",
+			"origin": "-3510.103760 2690.333740 -938.420044",
+			"angles": "90.0 0.0 0.0",
+			"scales": "1 1 1",
+			"model": "maps//surf_easy1//entities//unnamed_596.vmdl"
+		},
+		// Adds tele trigger so you dont get stuck between wall and the ramp on stage 5
+		{
+			"mirror_player": "False",
+			"use_landmark_angles": "False",
+			"target": "[PR#]stage5_teleport",
+			"spawnflags": "4099",
+			"StartDisabled": "False",
+			"useLocalOffset": "False",
+			"classname": "trigger_teleport",
+			"origin": "-3510.103760 4630.498047 -938.420044",
+			"angles": "90.0 0.0 0.0",
+			"scales": "1 1 1",
+			"model": "maps//surf_easy1//entities//unnamed_596.vmdl"
+		}
+	]
+}
