@@ -1,0 +1,13 @@
+{
+	"add": [
+		// Adds missing team select
+        {
+            "classname": "team_select",
+			"isPointPrefab": "true",
+			"targetMapName": "prefabs/misc/team_select",
+			"origin": "2241.736084 -3467.533691 3341.288330",
+			"angles": "0.0 -90.0 0.0",
+			"scales": "1.000000 1.000000 1.000000"
+        }
+	]
+}
