@@ -1,5 +1,5 @@
 # StripperCS2-MapFixes
-A compilation of movement maps that have been fixed using StripperCS2.
+A compilation of movement maps that have been fixed using [StripperCS2](https://github.com/Source2ZE/StripperCS2).
 
 I will add more maps as I go. Feel free to make a PR if you want to contribute!
 
